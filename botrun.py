@@ -10,7 +10,7 @@ import os, requests, socket, urllib3
 
 
 ################################## API 등록 #######################################
-with open("/Users/imbot/Desktop/code/futures/future_bot/api.txt") as f:
+with open("./api.txt") as f:
     lines = f.readlines()
     api_key = lines[0].strip()
     secret  = lines[1].strip()
